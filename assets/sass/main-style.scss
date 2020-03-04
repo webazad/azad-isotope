@@ -1,0 +1,80 @@
+.widget_azad_isotop{
+    margin-top:80px;
+}
+.button-group{
+    margin-bottom:20px;
+    button{
+        background:white;
+        border: none;
+        outline: none;
+        padding: 0px 20px;
+        color: #414141;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        font-weight: bold;
+        border-right: 3px solid #414141;
+        text-transform:uppercase;
+        &:last-child{
+            border: none;
+        }
+    }
+}
+.grid-container{
+    width:90%;
+    margin:0 auto;
+    .grid{
+        display:flex;
+        flex-direction:column;
+        .grid-item{            
+            width: 49.5%;
+            margin:3px;
+            .grid-content{
+                height:250px;
+                padding:50px;
+                box-sizing:border-box;
+                h3{
+                    text-align:left;
+                    font-size:3rem;
+                    font-weight:bold;
+                    text-transform:uppercase;
+                    a{
+                        color:white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px){
+    .button-group{
+        margin-bottom:20px;
+        button{
+            border: none;
+            outline: none;
+            padding: 0px;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            border-right: none;
+            text-transform: uppercase;
+            width: 100%;
+            margin-bottom:1.2rem;
+        }
+    }
+    .grid-container{
+        width:90%;
+        margin:0 auto;
+        .grid{
+            display:flex;
+            flex-direction:column;
+            .grid-item{            
+                width: 100%;
+                margin-bottom:3px;
+                .grid-content{
+                    height:250px;
+                    padding:2rem 0 2rem;
+                }
+            }
+        }
+    }
+}
