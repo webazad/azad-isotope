@@ -91,7 +91,7 @@ if(! class_exists('Azad_Isotop')){
                         if(has_post_thumbnail()){
                             $output .= '<div class="azad-content" style="background:url('.get_the_post_thumbnail_url(get_the_ID(), 'post-thumbnail' ).');background-repeat: no-repeat;
                             background-position: center;background-size:cover;">';
-                            $output .= '<div class="grid-content"><h3><a href="">' . get_the_title() . '</a></h3></div>';
+                            $output .= '<div class="grid-content"><h3><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h3></div>';
                             $output .= '</div>';
                            // $output .= '</a>';
                         }

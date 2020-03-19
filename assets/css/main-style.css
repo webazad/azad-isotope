@@ -52,7 +52,8 @@
 
 .grid-container .grid .grid-item .grid-content h3 {
   text-align: left;
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
